@@ -1,9 +1,8 @@
-To install
-If running into errors, you might have to:
-Update to sierra
-Install and/or update xcode
-Install command line tools
-install postgres
+Prior to installing:
+* Update to sierra
+* Install and/or update xcode
+* Install command line tools
+* install postgres
 
 To clone
 ```bash
