@@ -1,9 +1,10 @@
 Prior to installing:
 * Update to sierra
-* Install and/or update xcode
+* Install and/or update xcode with appstore
 * Install command line tools
 * install postgres
 
+Adapted from 
 To clone
 ```bash
 $ git clone repo_name
@@ -49,4 +50,6 @@ $ bundle install
 ^^ agree to popup
 
 If that happens when running the quickstart install, you will need to rerun
+```bash
 $ rails generate blacklight:install --devise --marc --solr_version=latest
+```
