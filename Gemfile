@@ -57,6 +57,7 @@ group :development, :test do
   gem 'solr_wrapper', '>= 0.3'
 end
 
+gem 'figaro'
 gem 'rsolr', '~> 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.5'
