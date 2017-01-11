@@ -9,7 +9,7 @@ To clone
 ```bash
 $ git clone repo_name
 $ cd repo_name
-$ rvm install 2.4.0
+$ rvm install 2.2.2
 $ rvm gemset create carter-blacklight
 $ rvm gemset use carter-blacklight
 $ bundle install
@@ -24,7 +24,7 @@ $ rails server
 
 To create from scratch
 ```bash
-$ rvm install 2.4.0
+$ rvm install 2.2.2
 $ rvm gemset create carter-blacklight
 $ rvm gemset use carter-blacklight
 $ gem install solr_wrapper 
