@@ -4,7 +4,6 @@ Prior to installing:
 * Install command line tools
 * install postgres
 
-Adapted from 
 To clone
 ```bash
 $ git clone repo_name
