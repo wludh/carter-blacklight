@@ -52,3 +52,9 @@ If that happens when running the quickstart install, you will need to rerun
 ```bash
 $ rails generate blacklight:install --devise --marc --solr_version=latest
 ```
+
+New marc records should be placed in /solr/
+They are indexed with
+```
+$ rake solr:marc:index MARC_FILE=~/projects/carter-blacklight/solr/marc_file.mrc
+```
